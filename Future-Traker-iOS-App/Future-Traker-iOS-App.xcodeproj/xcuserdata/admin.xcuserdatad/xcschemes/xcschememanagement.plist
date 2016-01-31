@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Future-Traker-iOS-App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>848CF6381C5E619F00EAD456</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>848CF64C1C5E61A000EAD456</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>848CF6571C5E61A000EAD456</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

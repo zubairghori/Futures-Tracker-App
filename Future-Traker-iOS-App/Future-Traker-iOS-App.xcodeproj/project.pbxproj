@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		848CF63D1C5E619F00EAD456 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CF63C1C5E619F00EAD456 /* AppDelegate.swift */; };
+		848CF63F1C5E619F00EAD456 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CF63E1C5E619F00EAD456 /* ViewController.swift */; };
+		848CF6421C5E619F00EAD456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848CF6401C5E619F00EAD456 /* Main.storyboard */; };
+		848CF6441C5E619F00EAD456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848CF6431C5E619F00EAD456 /* Assets.xcassets */; };
+		848CF6471C5E619F00EAD456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848CF6451C5E619F00EAD456 /* LaunchScreen.storyboard */; };
+		848CF6521C5E61A000EAD456 /* Future_Traker_iOS_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CF6511C5E61A000EAD456 /* Future_Traker_iOS_AppTests.swift */; };
+		848CF65D1C5E61A000EAD456 /* Future_Traker_iOS_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CF65C1C5E61A000EAD456 /* Future_Traker_iOS_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		848CF64E1C5E61A000EAD456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 848CF6311C5E619F00EAD456 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848CF6381C5E619F00EAD456;
+			remoteInfo = "Future-Traker-iOS-App";
+		};
+		848CF6591C5E61A000EAD456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 848CF6311C5E619F00EAD456 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848CF6381C5E619F00EAD456;
+			remoteInfo = "Future-Traker-iOS-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		848CF6391C5E619F00EAD456 /* Future-Traker-iOS-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Future-Traker-iOS-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		848CF63C1C5E619F00EAD456 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		848CF63E1C5E619F00EAD456 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		848CF6411C5E619F00EAD456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		848CF6431C5E619F00EAD456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		848CF6461C5E619F00EAD456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		848CF6481C5E619F00EAD456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848CF64D1C5E61A000EAD456 /* Future-Traker-iOS-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Future-Traker-iOS-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		848CF6511C5E61A000EAD456 /* Future_Traker_iOS_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Future_Traker_iOS_AppTests.swift; sourceTree = "<group>"; };
+		848CF6531C5E61A000EAD456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848CF6581C5E61A000EAD456 /* Future-Traker-iOS-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Future-Traker-iOS-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		848CF65C1C5E61A000EAD456 /* Future_Traker_iOS_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Future_Traker_iOS_AppUITests.swift; sourceTree = "<group>"; };
+		848CF65E1C5E61A000EAD456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848CF6361C5E619F00EAD456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848CF64A1C5E61A000EAD456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848CF6551C5E61A000EAD456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		848CF6301C5E619F00EAD456 = {
+			isa = PBXGroup;
+			children = (
+				848CF63B1C5E619F00EAD456 /* Future-Traker-iOS-App */,
+				848CF6501C5E61A000EAD456 /* Future-Traker-iOS-AppTests */,
+				848CF65B1C5E61A000EAD456 /* Future-Traker-iOS-AppUITests */,
+				848CF63A1C5E619F00EAD456 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		848CF63A1C5E619F00EAD456 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848CF6391C5E619F00EAD456 /* Future-Traker-iOS-App.app */,
+				848CF64D1C5E61A000EAD456 /* Future-Traker-iOS-AppTests.xctest */,
+				848CF6581C5E61A000EAD456 /* Future-Traker-iOS-AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848CF63B1C5E619F00EAD456 /* Future-Traker-iOS-App */ = {
+			isa = PBXGroup;
+			children = (
+				848CF63C1C5E619F00EAD456 /* AppDelegate.swift */,
+				848CF63E1C5E619F00EAD456 /* ViewController.swift */,
+				848CF6401C5E619F00EAD456 /* Main.storyboard */,
+				848CF6431C5E619F00EAD456 /* Assets.xcassets */,
+				848CF6451C5E619F00EAD456 /* LaunchScreen.storyboard */,
+				848CF6481C5E619F00EAD456 /* Info.plist */,
+			);
+			path = "Future-Traker-iOS-App";
+			sourceTree = "<group>";
+		};
+		848CF6501C5E61A000EAD456 /* Future-Traker-iOS-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				848CF6511C5E61A000EAD456 /* Future_Traker_iOS_AppTests.swift */,
+				848CF6531C5E61A000EAD456 /* Info.plist */,
+			);
+			path = "Future-Traker-iOS-AppTests";
+			sourceTree = "<group>";
+		};
+		848CF65B1C5E61A000EAD456 /* Future-Traker-iOS-AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				848CF65C1C5E61A000EAD456 /* Future_Traker_iOS_AppUITests.swift */,
+				848CF65E1C5E61A000EAD456 /* Info.plist */,
+			);
+			path = "Future-Traker-iOS-AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		848CF6381C5E619F00EAD456 /* Future-Traker-iOS-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848CF6611C5E61A000EAD456 /* Build configuration list for PBXNativeTarget "Future-Traker-iOS-App" */;
+			buildPhases = (
+				848CF6351C5E619F00EAD456 /* Sources */,
+				848CF6361C5E619F00EAD456 /* Frameworks */,
+				848CF6371C5E619F00EAD456 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Future-Traker-iOS-App";
+			productName = "Future-Traker-iOS-App";
+			productReference = 848CF6391C5E619F00EAD456 /* Future-Traker-iOS-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		848CF64C1C5E61A000EAD456 /* Future-Traker-iOS-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848CF6641C5E61A000EAD456 /* Build configuration list for PBXNativeTarget "Future-Traker-iOS-AppTests" */;
+			buildPhases = (
+				848CF6491C5E61A000EAD456 /* Sources */,
+				848CF64A1C5E61A000EAD456 /* Frameworks */,
+				848CF64B1C5E61A000EAD456 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848CF64F1C5E61A000EAD456 /* PBXTargetDependency */,
+			);
+			name = "Future-Traker-iOS-AppTests";
+			productName = "Future-Traker-iOS-AppTests";
+			productReference = 848CF64D1C5E61A000EAD456 /* Future-Traker-iOS-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		848CF6571C5E61A000EAD456 /* Future-Traker-iOS-AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848CF6671C5E61A000EAD456 /* Build configuration list for PBXNativeTarget "Future-Traker-iOS-AppUITests" */;
+			buildPhases = (
+				848CF6541C5E61A000EAD456 /* Sources */,
+				848CF6551C5E61A000EAD456 /* Frameworks */,
+				848CF6561C5E61A000EAD456 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848CF65A1C5E61A000EAD456 /* PBXTargetDependency */,
+			);
+			name = "Future-Traker-iOS-AppUITests";
+			productName = "Future-Traker-iOS-AppUITests";
+			productReference = 848CF6581C5E61A000EAD456 /* Future-Traker-iOS-AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		848CF6311C5E619F00EAD456 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					848CF6381C5E619F00EAD456 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					848CF64C1C5E61A000EAD456 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 848CF6381C5E619F00EAD456;
+					};
+					848CF6571C5E61A000EAD456 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 848CF6381C5E619F00EAD456;
+					};
+				};
+			};
+			buildConfigurationList = 848CF6341C5E619F00EAD456 /* Build configuration list for PBXProject "Future-Traker-iOS-App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 848CF6301C5E619F00EAD456;
+			productRefGroup = 848CF63A1C5E619F00EAD456 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848CF6381C5E619F00EAD456 /* Future-Traker-iOS-App */,
+				848CF64C1C5E61A000EAD456 /* Future-Traker-iOS-AppTests */,
+				848CF6571C5E61A000EAD456 /* Future-Traker-iOS-AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		848CF6371C5E619F00EAD456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848CF6471C5E619F00EAD456 /* LaunchScreen.storyboard in Resources */,
+				848CF6441C5E619F00EAD456 /* Assets.xcassets in Resources */,
+				848CF6421C5E619F00EAD456 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848CF64B1C5E61A000EAD456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848CF6561C5E61A000EAD456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		848CF6351C5E619F00EAD456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848CF63F1C5E619F00EAD456 /* ViewController.swift in Sources */,
+				848CF63D1C5E619F00EAD456 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848CF6491C5E61A000EAD456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848CF6521C5E61A000EAD456 /* Future_Traker_iOS_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848CF6541C5E61A000EAD456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848CF65D1C5E61A000EAD456 /* Future_Traker_iOS_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		848CF64F1C5E61A000EAD456 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 848CF6381C5E619F00EAD456 /* Future-Traker-iOS-App */;
+			targetProxy = 848CF64E1C5E61A000EAD456 /* PBXContainerItemProxy */;
+		};
+		848CF65A1C5E61A000EAD456 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 848CF6381C5E619F00EAD456 /* Future-Traker-iOS-App */;
+			targetProxy = 848CF6591C5E61A000EAD456 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		848CF6401C5E619F00EAD456 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848CF6411C5E619F00EAD456 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		848CF6451C5E619F00EAD456 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848CF6461C5E619F00EAD456 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		848CF65F1C5E61A000EAD456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		848CF6601C5E61A000EAD456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		848CF6621C5E61A000EAD456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Future-Traker-iOS-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zubair.Future-Traker-iOS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		848CF6631C5E61A000EAD456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Future-Traker-iOS-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zubair.Future-Traker-iOS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		848CF6651C5E61A000EAD456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Future-Traker-iOS-AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zubair.Future-Traker-iOS-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Future-Traker-iOS-App.app/Future-Traker-iOS-App";
+			};
+			name = Debug;
+		};
+		848CF6661C5E61A000EAD456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Future-Traker-iOS-AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zubair.Future-Traker-iOS-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Future-Traker-iOS-App.app/Future-Traker-iOS-App";
+			};
+			name = Release;
+		};
+		848CF6681C5E61A000EAD456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Future-Traker-iOS-AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zubair.Future-Traker-iOS-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Future-Traker-iOS-App";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		848CF6691C5E61A000EAD456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Future-Traker-iOS-AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zubair.Future-Traker-iOS-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Future-Traker-iOS-App";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		848CF6341C5E619F00EAD456 /* Build configuration list for PBXProject "Future-Traker-iOS-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848CF65F1C5E61A000EAD456 /* Debug */,
+				848CF6601C5E61A000EAD456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848CF6611C5E61A000EAD456 /* Build configuration list for PBXNativeTarget "Future-Traker-iOS-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848CF6621C5E61A000EAD456 /* Debug */,
+				848CF6631C5E61A000EAD456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		848CF6641C5E61A000EAD456 /* Build configuration list for PBXNativeTarget "Future-Traker-iOS-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848CF6651C5E61A000EAD456 /* Debug */,
+				848CF6661C5E61A000EAD456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		848CF6671C5E61A000EAD456 /* Build configuration list for PBXNativeTarget "Future-Traker-iOS-AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848CF6681C5E61A000EAD456 /* Debug */,
+				848CF6691C5E61A000EAD456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 848CF6311C5E619F00EAD456 /* Project object */;
+}
