@@ -8,11 +8,21 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+     
+        UserAuthentication.signIn("zubair", password: "123", trackerUUID: "vxcsfsdffsczxc") { (user, error) -> Void in
+
+            if error == nil {
+                print(User.LoggedInUser?.name)
+            }else{
+                
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {

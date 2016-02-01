@@ -14,6 +14,10 @@
 		848CF6471C5E619F00EAD456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848CF6451C5E619F00EAD456 /* LaunchScreen.storyboard */; };
 		848CF6521C5E61A000EAD456 /* Future_Traker_iOS_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CF6511C5E61A000EAD456 /* Future_Traker_iOS_AppTests.swift */; };
 		848CF65D1C5E61A000EAD456 /* Future_Traker_iOS_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CF65C1C5E61A000EAD456 /* Future_Traker_iOS_AppUITests.swift */; };
+		84CAFA701C5F79F700F18291 /* UserAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CAFA6F1C5F79F700F18291 /* UserAuthentication.swift */; };
+		84CAFA731C5F7A4A00F18291 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CAFA721C5F7A4A00F18291 /* User.swift */; };
+		84CAFA751C5F7E9400F18291 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CAFA741C5F7E9400F18291 /* Constants.swift */; };
+		B8BE89CA8DC0DDA9510E1E8D /* Pods_Future_Traker_iOS_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E22B6ADAF08923EDB3B08F1A /* Pods_Future_Traker_iOS_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01E7E8EA5A78716D3041F46B /* Pods-Future-Traker-iOS-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Future-Traker-iOS-App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Future-Traker-iOS-App/Pods-Future-Traker-iOS-App.debug.xcconfig"; sourceTree = "<group>"; };
 		848CF6391C5E619F00EAD456 /* Future-Traker-iOS-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Future-Traker-iOS-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		848CF63C1C5E619F00EAD456 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		848CF63E1C5E619F00EAD456 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		848CF6581C5E61A000EAD456 /* Future-Traker-iOS-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Future-Traker-iOS-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		848CF65C1C5E61A000EAD456 /* Future_Traker_iOS_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Future_Traker_iOS_AppUITests.swift; sourceTree = "<group>"; };
 		848CF65E1C5E61A000EAD456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CAFA6F1C5F79F700F18291 /* UserAuthentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAuthentication.swift; sourceTree = "<group>"; };
+		84CAFA721C5F7A4A00F18291 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		84CAFA741C5F7E9400F18291 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D738B161FAEC76556117EDCB /* Pods-Future-Traker-iOS-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Future-Traker-iOS-App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Future-Traker-iOS-App/Pods-Future-Traker-iOS-App.release.xcconfig"; sourceTree = "<group>"; };
+		E22B6ADAF08923EDB3B08F1A /* Pods_Future_Traker_iOS_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Future_Traker_iOS_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8BE89CA8DC0DDA9510E1E8D /* Pods_Future_Traker_iOS_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01EB5D4DDCF60943578723C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E22B6ADAF08923EDB3B08F1A /* Pods_Future_Traker_iOS_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		848CF6301C5E619F00EAD456 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +100,8 @@
 				848CF6501C5E61A000EAD456 /* Future-Traker-iOS-AppTests */,
 				848CF65B1C5E61A000EAD456 /* Future-Traker-iOS-AppUITests */,
 				848CF63A1C5E619F00EAD456 /* Products */,
+				A2FAE53EF8ADC581F5B32A78 /* Pods */,
+				01EB5D4DDCF60943578723C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +118,7 @@
 		848CF63B1C5E619F00EAD456 /* Future-Traker-iOS-App */ = {
 			isa = PBXGroup;
 			children = (
+				84CAFA711C5F7A3700F18291 /* User */,
 				848CF63C1C5E619F00EAD456 /* AppDelegate.swift */,
 				848CF63E1C5E619F00EAD456 /* ViewController.swift */,
 				848CF6401C5E619F00EAD456 /* Main.storyboard */,
@@ -125,6 +147,25 @@
 			path = "Future-Traker-iOS-AppUITests";
 			sourceTree = "<group>";
 		};
+		84CAFA711C5F7A3700F18291 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				84CAFA6F1C5F79F700F18291 /* UserAuthentication.swift */,
+				84CAFA721C5F7A4A00F18291 /* User.swift */,
+				84CAFA741C5F7E9400F18291 /* Constants.swift */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		A2FAE53EF8ADC581F5B32A78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01E7E8EA5A78716D3041F46B /* Pods-Future-Traker-iOS-App.debug.xcconfig */,
+				D738B161FAEC76556117EDCB /* Pods-Future-Traker-iOS-App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 848CF6611C5E61A000EAD456 /* Build configuration list for PBXNativeTarget "Future-Traker-iOS-App" */;
 			buildPhases = (
+				CA143B49F5E25F56E8F9E4FD /* Check Pods Manifest.lock */,
 				848CF6351C5E619F00EAD456 /* Sources */,
 				848CF6361C5E619F00EAD456 /* Frameworks */,
 				848CF6371C5E619F00EAD456 /* Resources */,
+				F076237D4FBA3A47646FC051 /* Embed Pods Frameworks */,
+				55974B13A1E3906AA0A8C6D4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,11 +295,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		55974B13A1E3906AA0A8C6D4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Future-Traker-iOS-App/Pods-Future-Traker-iOS-App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA143B49F5E25F56E8F9E4FD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F076237D4FBA3A47646FC051 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Future-Traker-iOS-App/Pods-Future-Traker-iOS-App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		848CF6351C5E619F00EAD456 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84CAFA751C5F7E9400F18291 /* Constants.swift in Sources */,
+				84CAFA731C5F7A4A00F18291 /* User.swift in Sources */,
+				84CAFA701C5F79F700F18291 /* UserAuthentication.swift in Sources */,
 				848CF63F1C5E619F00EAD456 /* ViewController.swift in Sources */,
 				848CF63D1C5E619F00EAD456 /* AppDelegate.swift in Sources */,
 			);
@@ -397,6 +492,7 @@
 		};
 		848CF6621C5E61A000EAD456 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E7E8EA5A78716D3041F46B /* Pods-Future-Traker-iOS-App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Future-Traker-iOS-App/Info.plist";
@@ -408,6 +504,7 @@
 		};
 		848CF6631C5E61A000EAD456 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D738B161FAEC76556117EDCB /* Pods-Future-Traker-iOS-App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Future-Traker-iOS-App/Info.plist";
@@ -484,6 +581,7 @@
 				848CF6631C5E61A000EAD456 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		848CF6641C5E61A000EAD456 /* Build configuration list for PBXNativeTarget "Future-Traker-iOS-AppTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +590,7 @@
 				848CF6661C5E61A000EAD456 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		848CF6671C5E61A000EAD456 /* Build configuration list for PBXNativeTarget "Future-Traker-iOS-AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +599,7 @@
 				848CF6691C5E61A000EAD456 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
