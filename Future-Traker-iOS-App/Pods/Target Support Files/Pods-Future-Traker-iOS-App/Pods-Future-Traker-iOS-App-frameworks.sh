@@ -85,11 +85,15 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-Future-Traker-iOS-App/Alamofire.framework"
+  install_framework "Pods-Future-Traker-iOS-App/BRYXBanner.framework"
   install_framework "Pods-Future-Traker-iOS-App/Firebase.framework"
+  install_framework "Pods-Future-Traker-iOS-App/SwiftSpinner.framework"
   install_framework "Pods-Future-Traker-iOS-App/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-Future-Traker-iOS-App/Alamofire.framework"
+  install_framework "Pods-Future-Traker-iOS-App/BRYXBanner.framework"
   install_framework "Pods-Future-Traker-iOS-App/Firebase.framework"
+  install_framework "Pods-Future-Traker-iOS-App/SwiftSpinner.framework"
   install_framework "Pods-Future-Traker-iOS-App/SwiftyJSON.framework"
 fi

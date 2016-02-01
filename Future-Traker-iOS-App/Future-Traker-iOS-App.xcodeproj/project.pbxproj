@@ -17,6 +17,8 @@
 		84CAFA701C5F79F700F18291 /* UserAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CAFA6F1C5F79F700F18291 /* UserAuthentication.swift */; };
 		84CAFA731C5F7A4A00F18291 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CAFA721C5F7A4A00F18291 /* User.swift */; };
 		84CAFA751C5F7E9400F18291 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CAFA741C5F7E9400F18291 /* Constants.swift */; };
+		84CAFA771C5FA01500F18291 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CAFA761C5FA01500F18291 /* Location.swift */; };
+		84CAFA791C5FA12E00F18291 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CAFA781C5FA12E00F18291 /* Map.swift */; };
 		B8BE89CA8DC0DDA9510E1E8D /* Pods_Future_Traker_iOS_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E22B6ADAF08923EDB3B08F1A /* Pods_Future_Traker_iOS_App.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +57,8 @@
 		84CAFA6F1C5F79F700F18291 /* UserAuthentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAuthentication.swift; sourceTree = "<group>"; };
 		84CAFA721C5F7A4A00F18291 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		84CAFA741C5F7E9400F18291 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		84CAFA761C5FA01500F18291 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		84CAFA781C5FA12E00F18291 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		D738B161FAEC76556117EDCB /* Pods-Future-Traker-iOS-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Future-Traker-iOS-App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Future-Traker-iOS-App/Pods-Future-Traker-iOS-App.release.xcconfig"; sourceTree = "<group>"; };
 		E22B6ADAF08923EDB3B08F1A /* Pods_Future_Traker_iOS_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Future_Traker_iOS_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -153,6 +157,8 @@
 				84CAFA6F1C5F79F700F18291 /* UserAuthentication.swift */,
 				84CAFA721C5F7A4A00F18291 /* User.swift */,
 				84CAFA741C5F7E9400F18291 /* Constants.swift */,
+				84CAFA761C5FA01500F18291 /* Location.swift */,
+				84CAFA781C5FA12E00F18291 /* Map.swift */,
 			);
 			name = User;
 			sourceTree = "<group>";
@@ -351,7 +357,9 @@
 				84CAFA751C5F7E9400F18291 /* Constants.swift in Sources */,
 				84CAFA731C5F7A4A00F18291 /* User.swift in Sources */,
 				84CAFA701C5F79F700F18291 /* UserAuthentication.swift in Sources */,
+				84CAFA791C5FA12E00F18291 /* Map.swift in Sources */,
 				848CF63F1C5E619F00EAD456 /* ViewController.swift in Sources */,
+				84CAFA771C5FA01500F18291 /* Location.swift in Sources */,
 				848CF63D1C5E619F00EAD456 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

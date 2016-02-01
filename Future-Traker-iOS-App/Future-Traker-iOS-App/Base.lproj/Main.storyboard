@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,11 +17,74 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oBW-LZ-qO6">
+                                <rect key="frame" x="20" y="102" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7vR-bP-tVq">
+                                <rect key="frame" x="20" y="158" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="TrackerID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jLG-Xh-FcM">
+                                <rect key="frame" x="20" y="212" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0kF-fE-T6L">
+                                <rect key="frame" x="247" y="313" width="106" height="46"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="0kF-fE-T6L" secondAttribute="height" multiplier="53:23" id="LO7-xk-Obx"/>
+                                </constraints>
+                                <state key="normal" title="SignIn">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="singIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KRQ-HR-UYi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.34813737578947368" blue="0.56095805921052633" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="oBW-LZ-qO6" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="293:600" constant="267" id="3N4-bs-fKI"/>
+                            <constraint firstItem="7vR-bP-tVq" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="293:600" constant="267" id="C0R-Ub-spc"/>
+                            <constraint firstItem="oBW-LZ-qO6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Mey-Ev-stO"/>
+                            <constraint firstItem="oBW-LZ-qO6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SjY-I7-2He"/>
+                            <constraint firstAttribute="trailing" secondItem="oBW-LZ-qO6" secondAttribute="trailing" constant="20" id="T9i-k6-zMs"/>
+                            <constraint firstAttribute="trailing" secondItem="7vR-bP-tVq" secondAttribute="trailing" constant="20" id="Ydd-Za-d8k"/>
+                            <constraint firstAttribute="trailing" secondItem="jLG-Xh-FcM" secondAttribute="trailing" constant="20" id="ZPw-SK-Byk"/>
+                            <constraint firstItem="7vR-bP-tVq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="h7a-BK-Wr1"/>
+                            <constraint firstItem="0kF-fE-T6L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iNh-qX-VQ6"/>
+                            <constraint firstItem="0kF-fE-T6L" firstAttribute="top" secondItem="jLG-Xh-FcM" secondAttribute="bottom" constant="71" id="jNq-RH-Thy"/>
+                            <constraint firstItem="jLG-Xh-FcM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="lOj-ty-D8i"/>
+                            <constraint firstItem="jLG-Xh-FcM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oGn-ZI-EmR"/>
+                            <constraint firstItem="oBW-LZ-qO6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="82" id="q0i-oU-99Z"/>
+                            <constraint firstItem="jLG-Xh-FcM" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="293:600" constant="267" id="sY8-RJ-UAh"/>
+                            <constraint firstItem="jLG-Xh-FcM" firstAttribute="top" secondItem="7vR-bP-tVq" secondAttribute="bottom" constant="24" id="ukg-U4-XGt"/>
+                            <constraint firstItem="0kF-fE-T6L" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="53:300" id="vEA-2R-Q1P"/>
+                            <constraint firstItem="7vR-bP-tVq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="xB1-6U-GxQ"/>
+                            <constraint firstItem="7vR-bP-tVq" firstAttribute="top" secondItem="oBW-LZ-qO6" secondAttribute="bottom" constant="26" id="xPN-LZ-ynC"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="3N4-bs-fKI"/>
+                                <exclude reference="C0R-Ub-spc"/>
+                                <exclude reference="sY8-RJ-UAh"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="name" destination="oBW-LZ-qO6" id="uUW-Dt-e4n"/>
+                        <outlet property="password" destination="7vR-bP-tVq" id="wWB-zz-eEo"/>
+                        <outlet property="trackerID" destination="jLG-Xh-FcM" id="twm-yy-fpr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="455" y="359"/>
         </scene>
     </scenes>
 </document>

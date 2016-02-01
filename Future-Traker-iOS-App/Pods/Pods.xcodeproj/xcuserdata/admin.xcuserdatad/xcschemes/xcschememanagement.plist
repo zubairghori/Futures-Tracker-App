@@ -9,12 +9,27 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>BRYXBanner-BRYXBanner.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>BRYXBanner.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Firebase.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-Future-Traker-iOS-App.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftSpinner.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,12 +42,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1FBFD74E7DA1EDDFD361828473DA8299</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>24F5DBF64CD65CC269229497AC1F2C10</key>
+		<key>2B0F7B720B39D3B1D0C9BCC94ECA72A7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,7 +52,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>4850AF8387FB2C01F295226746622960</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>75AEEEFD7E431013E8E60009251D5797</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>B7AC9326D819482593FE118E915409D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C9DAAD61885B943BEBDD537CA44013F5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E45C60E65DC7B25E659C0A735F907FC7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
